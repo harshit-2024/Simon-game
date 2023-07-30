@@ -1,12 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   text-align: center;
   background-color: #011F3F;
 }
 
+.feedback{
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1rem;
+}
+
+.feedback a{
+  color: beige;
+}
+
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin:  4%;
   color: #FEF2BF;
 }
 
@@ -18,10 +34,10 @@ body {
 }
 
 .btn {
-  margin: 25px;
+  margin: 1.5rem;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 10rem;
+  width: 10rem;
   border: 10px solid black;
   border-radius: 20%;
 }
