@@ -107,5 +107,5 @@ textarea{
     align-items: center;
     border: 2px solid black;
     border-radius: 1rem;
-    background-color: aquamarine;
+    background: linear-gradient(#61677A, #c2b28a);
 }
